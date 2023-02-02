@@ -128,8 +128,6 @@ extension InitialViewController {
     
     private func createtextFields() {
         loginTextField = UITextField()
-        loginTextField.textColor = UIColor(named: "purpleColor")
-        loginTextField.backgroundColor = .secondarySystemBackground
         loginTextField.borderStyle = .roundedRect
         loginTextField.placeholder = "Электронная почта"
         loginTextField.translatesAutoresizingMaskIntoConstraints = false
@@ -139,8 +137,6 @@ extension InitialViewController {
         view.addSubview(loginTextField)
         
         passwordTextField = UITextField()
-        passwordTextField.textColor = UIColor(named: "purpleColor")
-        passwordTextField.backgroundColor = .secondarySystemBackground
         passwordTextField.placeholder = "Пароль"
         passwordTextField.borderStyle = .roundedRect
         passwordTextField.isSecureTextEntry = true
